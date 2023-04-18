@@ -11,7 +11,48 @@
 		97C1E7F329EF32EE00903509 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C1E7F229EF32EE00903509 /* ContentView.swift */; };
 		97C1E7F529EF32F000903509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C1E7F429EF32F000903509 /* Assets.xcassets */; };
 		97C1E7F829EF32F000903509 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C1E7F729EF32F000903509 /* Preview Assets.xcassets */; };
+		97C1E80729EF33DC00903509 /* background-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 97C1E7FF29EF33DC00903509 /* background-music.mp3 */; };
+		97C1E80829EF33DC00903509 /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 97C1E80029EF33DC00903509 /* chimeup.mp3 */; };
+		97C1E80929EF33DC00903509 /* casino-chips.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 97C1E80129EF33DC00903509 /* casino-chips.mp3 */; };
+		97C1E80A29EF33DC00903509 /* spin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 97C1E80229EF33DC00903509 /* spin.mp3 */; };
+		97C1E80B29EF33DC00903509 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 97C1E80329EF33DC00903509 /* win.mp3 */; };
+		97C1E80C29EF33DC00903509 /* game-over.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 97C1E80429EF33DC00903509 /* game-over.mp3 */; };
+		97C1E80D29EF33DC00903509 /* high-score.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 97C1E80529EF33DC00903509 /* high-score.mp3 */; };
+		97C1E80E29EF33DC00903509 /* riseup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 97C1E80629EF33DC00903509 /* riseup.mp3 */; };
+		97C1E81329EF357000903509 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C1E81229EF357000903509 /* LaunchScreen.storyboard */; };
+		97C1E81529EF455900903509 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C1E81429EF455900903509 /* Extensions.swift */; };
+		97C1E81729EF45BF00903509 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C1E81629EF45BF00903509 /* Modifiers.swift */; };
+		97C1E81929EF45D600903509 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C1E81829EF45D600903509 /* PlaySound.swift */; };
+		97C1E81B29EF461600903509 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C1E81A29EF461600903509 /* InfoView.swift */; };
+		97C1E81D29EF462A00903509 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C1E81C29EF462A00903509 /* LogoView.swift */; };
+		97C1E81F29EF463900903509 /* ReelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C1E81E29EF463900903509 /* ReelView.swift */; };
+		97C1E82529EF47A400903509 /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C1E82429EF47A400903509 /* Stickers.xcassets */; };
+		97C1E82929EF47A400903509 /* Slot Stickers.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 97C1E82229EF47A200903509 /* Slot Stickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97C1E82729EF47A400903509 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97C1E7E529EF32EE00903509 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97C1E82129EF47A200903509;
+			remoteInfo = "Slot Stickers";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		97C1E82D29EF47A400903509 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				97C1E82929EF47A400903509 /* Slot Stickers.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		97C1E7ED29EF32EE00903509 /* Slot Machine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slot Machine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +60,25 @@
 		97C1E7F229EF32EE00903509 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		97C1E7F429EF32F000903509 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97C1E7F729EF32F000903509 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		97C1E7FF29EF33DC00903509 /* background-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "background-music.mp3"; sourceTree = "<group>"; };
+		97C1E80029EF33DC00903509 /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
+		97C1E80129EF33DC00903509 /* casino-chips.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "casino-chips.mp3"; sourceTree = "<group>"; };
+		97C1E80229EF33DC00903509 /* spin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spin.mp3; sourceTree = "<group>"; };
+		97C1E80329EF33DC00903509 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		97C1E80429EF33DC00903509 /* game-over.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "game-over.mp3"; sourceTree = "<group>"; };
+		97C1E80529EF33DC00903509 /* high-score.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "high-score.mp3"; sourceTree = "<group>"; };
+		97C1E80629EF33DC00903509 /* riseup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = riseup.mp3; sourceTree = "<group>"; };
+		97C1E81129EF348800903509 /* Slot-Machine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Slot-Machine-Info.plist"; sourceTree = SOURCE_ROOT; };
+		97C1E81229EF357000903509 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97C1E81429EF455900903509 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		97C1E81629EF45BF00903509 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		97C1E81829EF45D600903509 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		97C1E81A29EF461600903509 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		97C1E81C29EF462A00903509 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		97C1E81E29EF463900903509 /* ReelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelView.swift; sourceTree = "<group>"; };
+		97C1E82229EF47A200903509 /* Slot Stickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Slot Stickers.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97C1E82429EF47A400903509 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
+		97C1E82629EF47A400903509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				97C1E7EF29EF32EE00903509 /* Slot Machine */,
+				97C1E82329EF47A200903509 /* Slot Stickers */,
 				97C1E7EE29EF32EE00903509 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				97C1E7ED29EF32EE00903509 /* Slot Machine.app */,
+				97C1E82229EF47A200903509 /* Slot Stickers.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,9 +113,13 @@
 		97C1E7EF29EF32EE00903509 /* Slot Machine */ = {
 			isa = PBXGroup;
 			children = (
-				97C1E7F029EF32EE00903509 /* Slot_MachineApp.swift */,
-				97C1E7F229EF32EE00903509 /* ContentView.swift */,
+				97C1E81029EF344500903509 /* Helpers */,
+				97C1E80F29EF342E00903509 /* Views */,
+				97C1E7FE29EF33DC00903509 /* Sounds */,
 				97C1E7F429EF32F000903509 /* Assets.xcassets */,
+				97C1E81229EF357000903509 /* LaunchScreen.storyboard */,
+				97C1E7F029EF32EE00903509 /* Slot_MachineApp.swift */,
+				97C1E81129EF348800903509 /* Slot-Machine-Info.plist */,
 				97C1E7F629EF32F000903509 /* Preview Content */,
 			);
 			path = "Slot Machine";
@@ -67,6 +133,51 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		97C1E7FE29EF33DC00903509 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				97C1E7FF29EF33DC00903509 /* background-music.mp3 */,
+				97C1E80029EF33DC00903509 /* chimeup.mp3 */,
+				97C1E80129EF33DC00903509 /* casino-chips.mp3 */,
+				97C1E80229EF33DC00903509 /* spin.mp3 */,
+				97C1E80329EF33DC00903509 /* win.mp3 */,
+				97C1E80429EF33DC00903509 /* game-over.mp3 */,
+				97C1E80529EF33DC00903509 /* high-score.mp3 */,
+				97C1E80629EF33DC00903509 /* riseup.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		97C1E80F29EF342E00903509 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				97C1E7F229EF32EE00903509 /* ContentView.swift */,
+				97C1E81A29EF461600903509 /* InfoView.swift */,
+				97C1E81C29EF462A00903509 /* LogoView.swift */,
+				97C1E81E29EF463900903509 /* ReelView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		97C1E81029EF344500903509 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				97C1E81429EF455900903509 /* Extensions.swift */,
+				97C1E81629EF45BF00903509 /* Modifiers.swift */,
+				97C1E81829EF45D600903509 /* PlaySound.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		97C1E82329EF47A200903509 /* Slot Stickers */ = {
+			isa = PBXGroup;
+			children = (
+				97C1E82429EF47A400903509 /* Stickers.xcassets */,
+				97C1E82629EF47A400903509 /* Info.plist */,
+			);
+			path = "Slot Stickers";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +188,32 @@
 				97C1E7E929EF32EE00903509 /* Sources */,
 				97C1E7EA29EF32EE00903509 /* Frameworks */,
 				97C1E7EB29EF32EE00903509 /* Resources */,
+				97C1E82D29EF47A400903509 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				97C1E82829EF47A400903509 /* PBXTargetDependency */,
 			);
 			name = "Slot Machine";
 			productName = "Slot Machine";
 			productReference = 97C1E7ED29EF32EE00903509 /* Slot Machine.app */;
 			productType = "com.apple.product-type.application";
+		};
+		97C1E82129EF47A200903509 /* Slot Stickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97C1E82A29EF47A400903509 /* Build configuration list for PBXNativeTarget "Slot Stickers" */;
+			buildPhases = (
+				97C1E82029EF47A200903509 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Slot Stickers";
+			productName = "Slot Stickers";
+			productReference = 97C1E82229EF47A200903509 /* Slot Stickers.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +226,9 @@
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					97C1E7EC29EF32EE00903509 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					97C1E82129EF47A200903509 = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
@@ -116,6 +247,7 @@
 			projectRoot = "";
 			targets = (
 				97C1E7EC29EF32EE00903509 /* Slot Machine */,
+				97C1E82129EF47A200903509 /* Slot Stickers */,
 			);
 		};
 /* End PBXProject section */
@@ -125,8 +257,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97C1E80829EF33DC00903509 /* chimeup.mp3 in Resources */,
 				97C1E7F829EF32F000903509 /* Preview Assets.xcassets in Resources */,
+				97C1E80B29EF33DC00903509 /* win.mp3 in Resources */,
+				97C1E80A29EF33DC00903509 /* spin.mp3 in Resources */,
+				97C1E80729EF33DC00903509 /* background-music.mp3 in Resources */,
 				97C1E7F529EF32F000903509 /* Assets.xcassets in Resources */,
+				97C1E80C29EF33DC00903509 /* game-over.mp3 in Resources */,
+				97C1E80929EF33DC00903509 /* casino-chips.mp3 in Resources */,
+				97C1E80E29EF33DC00903509 /* riseup.mp3 in Resources */,
+				97C1E81329EF357000903509 /* LaunchScreen.storyboard in Resources */,
+				97C1E80D29EF33DC00903509 /* high-score.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97C1E82029EF47A200903509 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97C1E82529EF47A400903509 /* Stickers.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,12 +286,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97C1E81929EF45D600903509 /* PlaySound.swift in Sources */,
+				97C1E81729EF45BF00903509 /* Modifiers.swift in Sources */,
 				97C1E7F329EF32EE00903509 /* ContentView.swift in Sources */,
+				97C1E81529EF455900903509 /* Extensions.swift in Sources */,
+				97C1E81F29EF463900903509 /* ReelView.swift in Sources */,
+				97C1E81D29EF462A00903509 /* LogoView.swift in Sources */,
+				97C1E81B29EF461600903509 /* InfoView.swift in Sources */,
 				97C1E7F129EF32EE00903509 /* Slot_MachineApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97C1E82829EF47A400903509 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97C1E82129EF47A200903509 /* Slot Stickers */;
+			targetProxy = 97C1E82729EF47A400903509 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		97C1E7F929EF32F000903509 /* Debug */ = {
@@ -270,11 +433,11 @@
 				DEVELOPMENT_TEAM = CAWU778PAQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Slot-Machine-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +462,11 @@
 				DEVELOPMENT_TEAM = CAWU778PAQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Slot-Machine-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,6 +476,44 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		97C1E82B29EF47A400903509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CAWU778PAQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Slot Stickers/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Slot Machine";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zkzwk.Slot-Machine.Slot-Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97C1E82C29EF47A400903509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CAWU778PAQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Slot Stickers/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Slot Machine";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zkzwk.Slot-Machine.Slot-Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -334,6 +535,15 @@
 			buildConfigurations = (
 				97C1E7FC29EF32F000903509 /* Debug */,
 				97C1E7FD29EF32F000903509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97C1E82A29EF47A400903509 /* Build configuration list for PBXNativeTarget "Slot Stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97C1E82B29EF47A400903509 /* Debug */,
+				97C1E82C29EF47A400903509 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
